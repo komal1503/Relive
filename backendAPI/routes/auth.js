@@ -35,7 +35,7 @@ router.post("/register", (req, res) => {
 
   User.register({username: reqUser.username}, reqUser.password, (err, user) => {
     if(err){
-      res.atatus(400).send(err);
+      res.status(400).send(err);
     }else{
       user.name = reqUser.name;
       user.save();

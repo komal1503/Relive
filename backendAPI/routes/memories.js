@@ -40,7 +40,7 @@ router.post("/creatnew", (req, res) => {
       }
     });
   }else{
-    res.staus(400).send("User is not logedin");
+    res.status(400).send("User is not logedin");
   }
 });
 

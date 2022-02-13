@@ -3,6 +3,8 @@ const express = require("express");
 const mongoose = require('mongoose');
 const session = require('express-session');
 const passport = require('passport');
+var cors = require('cors')
+
 
 const port = process.env.PORT || 3000;
 
@@ -19,6 +21,8 @@ app.use(session({
   resave: false,
   saveUninitialized: false
 }));
+
+app.use(cors());
 
 app.use(passport.initialize());
 app.use(passport.session());
