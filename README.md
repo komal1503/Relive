@@ -5,6 +5,10 @@ Relive the moment once again
 
 <img src= "https://github.com/Mrityunjay383/Relive/blob/main/Images/Home%20page.png" width="400" height="300" >
 
+# Presentation
+
+https://github.com/Mrityunjay383/Relive/blob/main/Presentation/RELIVE.pdf
+
 # Aimed for- HackNITP
 <p align="center">
 <img src="https://github.com/Mrityunjay383/Relive/blob/main/Images/HackNITP.png" width="670" height="200" >
