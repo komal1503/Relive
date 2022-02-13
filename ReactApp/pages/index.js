@@ -1,9 +1,16 @@
-import "flowbite";
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "../components/Navbar";
-import styles from "../styles/Home.module.css";
+import { Footer } from "../components/HomePage/Footer";
+import { Header } from "../components/HomePage/Header";
+import Navbar from "../components/HomePage/Navbar";
+import MemoryCard from "../components/MemoryCard";
 
 export default function Home() {
-  return <Navbar />;
+  return (
+    <div>
+      <Navbar />
+      <Header />
+      <Footer />
+    </div>
+  );
 }

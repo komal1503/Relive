@@ -114,3 +114,40 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# React App
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+reactapp/node_modules
+reactapp/.pnp
+reactapp/.pnp.js
+
+# testing
+reactapp/coverage
+
+# next.js
+reactapp/.next/
+reactapp/out/
+
+# production
+reactapp/build
+
+# misc
+reactapp/.DS_Store
+reactapp/*.pem
+
+# debug
+reactapp/npm-debug.log*
+reactapp/yarn-debug.log*
+reactapp/yarn-error.log*
+
+# local env files
+reactapp/.env.local
+reactapp/.env.development.local
+reactapp/.env.test.local
+reactapp/.env.production.local
+
+# vercel
+reactapp/.vercel

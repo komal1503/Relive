@@ -6,6 +6,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("flowbite/plugin")],
-  content: ["./node_modules/flowbite/**/*.js"],
+  plugins: [],
+  darkMode: "class",
 };
